@@ -32,5 +32,44 @@ header img, header span {
 /* Banner */
 .banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 25em;
+}
+
+.banner-text {
+  height: 10em;
+  width: 22em;
+  background-color: black;
+  position: relative;
+  top: 9.5em;
+  left: 21em;
+}
+
+.banner-text h1 {
+  color: white;
+  padding: 1em;
+}
+
+.banner-text h1.bottom {
+  font-weight: bold;
+  font-size: 1.85em;
+  padding: 0.25em;
+  margin-left: 0.25em;
+}
+
+/* Navigation Bar */
+nav {
+  height: 3em;
+  background-color: firebrick;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+  padding: 2.5em;
+  position: relative;
+  top: 0.8em;
+  left: 21.8em;
 }
