@@ -1,0 +1,36 @@
+/* Universal Styles */
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.4em;
+}
+
+/* Header and Nav */
+header {
+  height: 5em;
+  background-color: black;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+header img {
+  height: 30%;
+  margin-right: 1.25em;
+}
+
+header span {
+  color: white;
+}
+
+header img, header span {
+  position: relative;
+  top: 1.8em;
+  left: 20em;
+}
+
+/* Banner */
+.banner {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-size: cover;
+}
